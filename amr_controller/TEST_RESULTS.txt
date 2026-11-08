@@ -1,0 +1,34 @@
+Python 3.12.14 | 2026-11-08 | simulated protocol/state tests only
+
+test_arm_only_after_ack (test_system.ControlTests.test_arm_only_after_ack) ... ok
+test_auto_blocks_manual_drive (test_system.ControlTests.test_auto_blocks_manual_drive) ... ok
+test_bad_sensor_in_simulator_stops_motors (test_system.ControlTests.test_bad_sensor_in_simulator_stops_motors) ... ok
+test_connect_is_not_arm (test_system.ControlTests.test_connect_is_not_arm) ... ok
+test_disconnect_sends_stop (test_system.ControlTests.test_disconnect_sends_stop) ... ok
+test_drive_lease_expires_while_heartbeat_continues (test_system.ControlTests.test_drive_lease_expires_while_heartbeat_continues) ... ok
+test_estop_cancels_pending_reset_ack (test_system.ControlTests.test_estop_cancels_pending_reset_ack) ... ok
+test_estop_latches_until_explicit_reset (test_system.ControlTests.test_estop_latches_until_explicit_reset) ... ok
+test_hold_and_release (test_system.ControlTests.test_hold_and_release) ... ok
+test_invalid_sensor_prevents_arm (test_system.ControlTests.test_invalid_sensor_prevents_arm) ... ok
+test_link_loss_latches_app_fault_and_robot_watchdog (test_system.ControlTests.test_link_loss_latches_app_fault_and_robot_watchdog) ... ok
+test_mode_transition_blocks_manual_drive_before_ack (test_system.ControlTests.test_mode_transition_blocks_manual_drive_before_ack) ... ok
+test_reconnect_uses_new_session (test_system.ControlTests.test_reconnect_uses_new_session) ... ok
+test_sensor_fault_telemetry_requests_stop (test_system.ControlTests.test_sensor_fault_telemetry_requests_stop) ... ok
+test_serial_write_error_disables_control (test_system.ControlTests.test_serial_write_error_disables_control) ... ok
+test_stop_disarms_and_ignores_late_arm_ack (test_system.ControlTests.test_stop_disarms_and_ignores_late_arm_ack) ... ok
+test_telemetry_timeout_even_when_ack_works (test_system.ControlTests.test_telemetry_timeout_even_when_ack_works) ... ok
+test_wrong_command_ack_ignored (test_system.ControlTests.test_wrong_command_ack_ignored) ... ok
+test_wrong_session_ack_ignored (test_system.ControlTests.test_wrong_session_ack_ignored) ... ok
+test_fragmented_serial (test_system.ProtocolTests.test_fragmented_serial) ... ok
+test_multiple_frames_crlf (test_system.ProtocolTests.test_multiple_frames_crlf) ... ok
+test_oversize_resynchronizes_at_newline (test_system.ProtocolTests.test_oversize_resynchronizes_at_newline) ... ok
+test_rejects_malformed_messages (test_system.ProtocolTests.test_rejects_malformed_messages) ... ok
+test_rejects_nan (test_system.ProtocolTests.test_rejects_nan) ... ok
+test_rejects_out_of_range_pwm (test_system.ProtocolTests.test_rejects_out_of_range_pwm) ... ok
+test_round_trip (test_system.ProtocolTests.test_round_trip) ... ok
+test_wire_budget (test_system.ProtocolTests.test_wire_budget) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.010s
+
+OK

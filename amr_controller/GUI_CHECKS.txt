@@ -1,0 +1,6 @@
+Python 3.12.14 | 2026-11-08
+Own-application Tkinter object checks: passed
+Construct, connect simulator, ARM, auto, estop, reset: passed
+Tcl combobox popdown focus and external focus regression: passed
+Root 1120x900; required client height 857; footer and log visible.
+No physical USB/RF/robot validation performed.
